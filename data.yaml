@@ -1,0 +1,75 @@
+name: praqma
+children:
+- name: Source code management
+  children:
+  - name: Git
+    size: 20
+  - name: SVN
+    size: 3
+  - name: VSTS
+    size: 1
+- name: Orchestration
+  children:
+  - name: Kubernetes
+    size: 10
+    children:
+    - name: Istio
+      size: 2
+    - name: Prometheus
+      size: 8
+    - name: Rook
+      size: 1
+    - name: Jaeger
+      size: 2
+  - name: Mesos
+    size: 1
+  - name: Stellar
+    size: 1
+- name: Public cloud
+  children:
+  - name: Alibaba cloud
+    size: 1
+  - name: Amazon AWS
+    size: 8
+  - name: Google cloud
+    size: 6
+  - name: Microsoft Azure
+    size: 1
+- name: Atlassian
+  children:
+  - name: Jira
+    size: 2
+  - name: Bitbucket
+    size: 10
+  - name: Confluence
+    size: 12
+  - name: Service desk
+    size: 2
+- name: Build engines
+  children:
+  - name: Jenkins
+    size: 20
+  - name: Concourse
+    size: 5
+- name: CI/CD tools
+  children: 
+  - name: Skaffold
+    size: 2
+  - name: Spinnaker
+    size: 2
+  - name: Draft
+    size: 3
+- name: Programming
+  children:
+  - name: JVM
+    children:
+    - name: Cloujure
+      size: 1
+    - name: Scala
+      size: 4
+    - name: Kotlin
+      size: 3
+    - name: Groovy
+      size: 10
+    - name: Java
+      size: 20
